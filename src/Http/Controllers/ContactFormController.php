@@ -1,11 +1,11 @@
 <?php
-namespace Suraj\Contactform\Http\Controllers;
+namespace Suraj1716\Contactform\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Support\Facades\Mail;
-use Suraj\Contactform\Mail\InquiryEmail;
-use Suraj\Contactform\Models\Contact;
+use Suraj1716\Contactform\Mail\InquiryEmail;
+use Suraj1716\Contactform\Models\Contact;
 
 class ContactFormController extends BaseController
 {
@@ -25,6 +25,7 @@ class ContactFormController extends BaseController
             'message' => 'required',
 
         ]);
+
 
         Contact::create($validated);
 

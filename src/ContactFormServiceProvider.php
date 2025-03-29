@@ -1,6 +1,6 @@
 <?php
 
-namespace Suraj\Contactform;
+namespace Suraj1716\Contactform;
 
 use Illuminate\Support\ServiceProvider;
 

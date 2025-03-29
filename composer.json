@@ -1,18 +1,18 @@
 {
-    "name": "suraj/contactform",
+    "name": "suraj1716/contactform",
     "description": "laravel contact form package",
     "type": "package",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Suraj\\Contactform\\": "src/"
+            "Suraj1716\\Contactform\\": "src/"
         }
     },
 
 "extra": {
     "laravel": {
         "providers": [
-            "Suraj\\Contactform\\ContactFormServiceProvider"
+            "Suraj1716\\Contactform\\ContactFormServiceProvider"
         ]
     }
 },

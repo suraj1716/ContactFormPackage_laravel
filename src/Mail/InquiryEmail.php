@@ -1,6 +1,6 @@
 <?php
 
-namespace Suraj\Contactform\Mail;
+namespace Suraj1716\Contactform\Mail;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;

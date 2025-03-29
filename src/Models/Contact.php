@@ -1,6 +1,6 @@
 <?php
 
-namespace Suraj\Contactform\Models;
+namespace Suraj1716\Contactform\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;

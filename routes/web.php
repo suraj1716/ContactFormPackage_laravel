@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Suraj\Contactform\Http\Controllers\ContactFormController;
+use Suraj1716\Contactform\Http\Controllers\ContactFormController;
 
 
 Route::middleware(['guest','web'])->group(function(){
