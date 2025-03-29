@@ -1,0 +1,27 @@
+{
+    "name": "suraj/contactform",
+    "description": "laravel contact form package",
+    "type": "package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Suraj\\Contactform\\": "src/"
+        }
+    },
+
+"extra": {
+    "laravel": {
+        "providers": [
+            "Suraj\\Contactform\\ContactFormServiceProvider"
+        ]
+    }
+},
+
+    "authors": [
+        {
+            "name": "suraj shrestha"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
